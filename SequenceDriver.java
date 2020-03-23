@@ -22,18 +22,25 @@ public class SequenceDriver
       System.out.println("Expected Sequence: [1, 4, 9, 16, 9, 7, 4, 9, 11]");
       System.out.println();
 
-      /* -----------------------------------------
-       * TESTS for Other methods to be implemented:
-       * comment out as you progress in your work
-      		
-	System.out.println("First sequence: " + firstSequence);
-      	System.out.println("Second sequence: " + secondSequence);
-	Sequence mergedSequence = firstSequence.merge(secondSequence);
-	System.out.println("Merged: "+ mergedSequence);
-	System.out.println("Expected: [1, 9, 4, 7, 9, 4, 16, 9, 11]");
-	System.out.println();
+       // -----------------------------------------
+       // * TESTS for Other methods to be implemented:
+       // * comment out as you progress in your work
+            
+   System.out.println("First sequence: " + firstSequence);
+   System.out.println("Second sequence: " + secondSequence);
+   Sequence mergedSequence = firstSequence.merge(secondSequence);
+   System.out.println("Merged: "+ mergedSequence);
+   System.out.println("Expected: [1, 9, 4, 7, 9, 4, 16, 9, 11]");
+   System.out.println();
 
-	* // add rest of Driver code
-	* -----------------------------------------*/
+   System.out.println("First sequence: " + firstSequence);
+   System.out.println("Second sequence: " + secondSequence);
+   Sequence mergeSorted = firstSequence.mergeSorted(secondSequence);
+   System.out.println("Merged and Sorted: "+ mergeSorted);
+
+   System.out.println("First sequence: " + firstSequence);
+   System.out.println("Second sequence: " + secondSequence);
+      System.out.println("Removed Duplicates " + firstSequence);
+
    }
 }
